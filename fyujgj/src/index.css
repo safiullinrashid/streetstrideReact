@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,Bold;
+  box-sizing: border-box;
+  max-width: 1440px;
+  line-height: 1.25;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: initial;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

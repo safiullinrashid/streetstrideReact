@@ -1,0 +1,110 @@
+.container
+  display: flex
+  justify-content: space-between
+  padding-left: 80px
+  padding-right: 80px
+  height: 727px
+
+.leftBlock
+  position: relative
+  width: 804px
+  height: 647px
+  display: flex
+  flex-direction: column
+
+  .textBlockleft
+    z-index: 0
+
+    display: flex
+    color: black
+    font-size: 26px
+    height: 100px
+    width: 300px
+    margin-top: 135px
+    margin-left: 200px
+
+
+    p
+      height: 100px
+      width: 300px
+
+
+
+
+  .imageBlock
+    z-index: 1
+
+    margin-top: -190px
+    display: flex
+    width: 600px
+    height: 547px
+
+    img
+      width: 600px
+      height: 550px
+
+
+.rightBlock
+  width: 476px
+  height: 647px
+  display: flex
+  flex-direction: column
+
+  .textBlockName
+    margin-top: 135px
+    color: black
+    font-size: 26px
+    width: 410px
+    height: 129px
+
+  .textBlock
+    color: black
+    font-size: 26px
+    width: 200px
+    height: 79px
+    margin-bottom: 40px
+
+
+  .button
+    position: relative
+    width: 230px
+    height: 84px
+    padding: 10px 20px
+    font-size: 26px
+    background-color: transparent
+    color: transparent
+    border: 2px solid #973636
+    border-radius: 4px
+    cursor: pointer
+    overflow: hidden
+    transition: color 0.3s ease-in-out
+
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      width: 0
+      height: 100%
+      background: linear-gradient(to right, rgba(241, 213, 213, 0) 100%, rgba(241, 213, 213, 1) 25%)
+      transition: all 0.3s ease-in-out
+
+    &:after
+      content: 'Подробнее'
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      color: #973636
+      transition: color 0.3s ease-in-out
+
+    &:hover
+      color: #fff
+
+      &:before
+        left: 0
+        width: 100%
+        background: linear-gradient(to right, rgba(241, 213, 213, 0.5) 0%, rgba(241, 213, 213, 1) 25%)
+
+      &:after
+        color: #fff

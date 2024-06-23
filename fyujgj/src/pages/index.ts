@@ -1,0 +1,6 @@
+export {MainPage}  from './MainPage/index.tsx'
+export {NikePage} from './NikePage/index.tsx'
+export {AdidasPage} from './AdidasPage/index.tsx'
+export {TheNorthFacePage} from './ThenorthfacePage/index.tsx'
+export {NewbalancePage} from './NewbalancePage/index.tsx'
+export {SneackerPage} from './SneackerPage/index.tsx'
